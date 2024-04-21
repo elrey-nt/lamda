@@ -7,12 +7,12 @@ exports.handler = async function (event) {
 
   // Create a nodemailer transporter
   const transporter = nodemailer.createTransport({
-    host: 'smtp.example.com', // Your SMTP host
-    port: 587, // Your SMTP port
-    secure: false, // false for TLS, true for SSL
+    host: 'smtp.gmail.com',
+    port: 465,
+    secure: true,
     auth: {
-      user: 'your-email@example.com', // Your email
-      pass: 'your-password' // Your email password
+        user: 'n.ettouzany@gmail.com', // your email address
+        password: 'Noureddine@2012' // your password
     }
   });
 
