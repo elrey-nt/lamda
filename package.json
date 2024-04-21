@@ -1,0 +1,16 @@
+{
+  "name": "netlify-functions-email",
+  "version": "1.0.0",
+  "description": "A project for sending emails using Netlify Functions and nodemailer",
+  "scripts": {
+    "start": "netlify-lambda serve functions",
+    "build": "netlify-lambda build functions"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.6.3"
+  },
+  "devDependencies": {
+    "netlify-lambda": "^2.0.16"
+  }
+}
